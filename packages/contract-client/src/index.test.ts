@@ -232,6 +232,7 @@ describe("EscrowGateClient & SDK Helpers", () => {
     assert.strictEqual(typeof getAnchorExchangeQuote, "function");
   });
 });
+import "./crypto.test";
 import "./ttl.test";
 import "./units.test";
 import "./sep38.test";

@@ -598,6 +598,7 @@ export class EscrowGateClient {
   }
 }
 
+export * from "./crypto";
 export * from "./units";
 export * from "./sep38";
 export * from "./ttl";
